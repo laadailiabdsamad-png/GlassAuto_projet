@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "GlassAuto Express HR",
+    "slug": "glassauto-frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "glassautorh",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#080808",
+    "platforms": ["ios", "android"],
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ma.glassauto.rh"
+    },
+    "android": {
+      "package": "ma.glassauto.rh",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#080808"
+        }
+      ]
+    ]
+  }
+}

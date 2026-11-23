@@ -1,0 +1,17 @@
+module.exports = {
+  obsidian: '#080808',
+  carbon: '#131212',
+  graphite: '#1c1b1b',
+  steel: '#292727',
+  edge: '#383535',
+  chrome: '#cdcbca',
+  ink: '#f5f4f3',
+  soft: '#b8b5b4',
+  mute: '#918e8d',
+  crimson: '#d41514',
+  ember: '#ff7a71',
+  success: '#3fca8c',
+  amber: '#f0b13c',
+  sky: '#6cabff',
+  violet: '#b29bff',
+};
